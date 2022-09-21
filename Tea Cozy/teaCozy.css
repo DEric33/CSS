@@ -5,3 +5,143 @@
     background-color: black;
     opacity: 0.9;
 }
+
+.fixHeader{
+    height: 69px;
+    border-bottom: 1px solid seashell;
+}
+
+.logo{
+    height: 50px;
+    padding: 10px 4px 4px;
+}
+
+.menu{
+    list-style: none;
+    display:inline-block;
+    float:right;
+}
+
+li{
+    float:right;
+}
+
+li a{
+    text-decoration: underline;
+    align-content:space-around;
+}
+
+.header{
+    background-image: url(images/img-mission-background.webp);
+    width: 100%;
+    height: 700px;
+    background-position: center top;
+    /*display: inline-flexbox;*/
+}
+
+.mission{
+    text-align: center;
+    display:inline-block;
+    position:absolute;
+    top:390px; 
+    height:120px;width:100%;
+}
+
+.food{
+    max-width: 1000px;
+    text-align: center;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.picture{
+    width: 300px;
+    height: 200px;
+   
+}
+
+img{
+    size-adjust:inherit;
+}
+
+#fallBerryBlitz{
+    background-image: url("images/img-berryblitz.jpg");
+    background-size:cover;
+    width: 300px;
+    height: 200px;
+}
+
+#spicedRum{
+    background-image: url("images/img-spiced-rum.webp");
+    background-size:cover;
+    width: 300px;
+    height: 200px;
+}
+
+#SeasonalDonuts{
+    background-image: url("images/img-donut.webp");
+    background-size:cover;
+    width: 300px;
+    height: 200px;
+}
+
+#myrtleAve{
+    background-image: url("images/img-myrtle-ave.webp");
+    background-size:cover;
+    width: 300px;
+    height: 200px;
+}
+
+#bedfortBizarre{
+    background-image: url("images/img-bedford-bizarre.jpg");
+    background-size:cover;
+    width: 300px;
+    height: 200px;
+}
+
+/* Locations */
+.location{
+    height: 500px;
+    background-image: url("images/img-locations-background.webp");
+}
+
+.titleLocation{
+background-color:green;
+}
+
+.addressList{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   /* text-align: center;
+    display:inline-block;
+    position:absolute;*/
+  top:390px;
+   /*   height:120px;
+    width:100%; */
+}
+
+
+
+}
+
+.address{
+    width:300px;
+ /*   height: 300px;*/
+    opacity:1;
+}
+
+/* contact */
+.contact{
+    height: 200px;
+}
+
+/* footer page */
+.copyright{
+    margin-left: 20px;
+    text-align: left;
+}

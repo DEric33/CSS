@@ -1,0 +1,26 @@
+Projet hors plateforme : Salon de thé
+Dans ce projet, vous créerez un site Web fictif pour un salon de thé sur votre 
+propre ordinateur.
+
+Nous vous fournirons une spécification de conception et des images pour vous 
+aider dans votre travail. Une spécification de conception est une image d'une 
+page Web décrite avec toutes ses propriétés et valeurs CSS. Elles sont généralement 
+créées par un concepteur pour servir de source d'instructions à un développeur Web. 
+Ce projet part du principe que vous serez capable de reproduire les codes HTML et 
+CSS de base avec peu de conseils.
+
+Les images et les spécifications de conception dont vous avez besoin pour réaliser 
+le projet sont énumérées ci-dessous.
+
+=====================================================================================
+
+Off-Platform Project: Tea Cozy
+In this project, you will create a fictional tea shop website on your own computer.
+
+We will provide a design spec and image assets to help you along the way. A design spec 
+is an image of a web page outlined with all of its CSS properties and values. These are 
+usually created by a designer as a source of instructions for a web developer. This 
+project assumes that you will be able to reproduce the basic HTML and CSS with little 
+guidance.
+
+The images and design spec you need to complete the project are listed below.
