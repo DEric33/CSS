@@ -1,0 +1,65 @@
+* {
+    font-size: 12px;
+    width: 90%;
+
+}
+
+header {
+    align-items: center;
+    display: inline-flex;
+}
+
+p {
+    font-style: oblique;
+    background-color: rgb(245, 244, 169);
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 2.5rem;
+    display:block;
+}
+
+.products {
+    width: 95%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.item {
+   /* display: inline;*/
+   background-color: blanchedalmond;
+}
+
+.employees {
+    width: 95%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.people {
+    background-color: bisque;
+}
+
+.copy {
+    font-style: italic;
+}
+
+.presentation {
+    font-size: 1.5rem;
+}
+
+img {
+    width: 20%;
+    height: auto;
+    
+}
+
+.item img {
+    width: 25%;
+    height: auto;
+}
