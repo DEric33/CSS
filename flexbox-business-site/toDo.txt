@@ -1,0 +1,96 @@
+Projet Challenge : Page d'accueil de l'entreprise avec Flexbox
+Aperçu
+Ce projet est légèrement différent des autres que vous avez rencontrés jusqu'à 
+présent sur Codecademy. Au lieu d'un tutoriel étape par étape, ce projet 
+contient une série d'exigences ouvertes qui décrivent le projet que vous allez
+ construire. Il existe de nombreuses façons de répondre correctement à toutes 
+ ces exigences, et vous devez vous attendre à utiliser Internet, Codecademy et
+  d'autres ressources lorsque vous rencontrez un problème que vous ne pouvez 
+  pas résoudre facilement.
+
+Objectifs du projet
+Dans ce projet, vous utiliserez ** flexbox ** pour concevoir et créer la mise 
+en page de la page d'accueil d'une entreprise. Vous pouvez choisir de créer une 
+ nouvelle page d'accueil pour une entreprise existante ou d'imaginer votre 
+ propre entreprise de rêve !​
+
+Instructions de configuration
+Si vous choisissez de faire ce projet sur votre ordinateur au lieu de 
+Codecademy, vous pouvez télécharger ce dont vous aurez besoin en cliquant sur 
+le bouton "Télécharger" ci-dessous. Si vous avez besoin d'aide pour configurer
+ votre ordinateur, lisez notre article sur la configuration d'un éditeur de 
+ texte pour le développement HTML/CSS.
+
+Télécharger
+Tâches
+0/5 terminé
+Marquez les tâches comme terminées en les cochant
+Conditions préalables
+
+1. Pour mener à bien ce projet, vous devez avoir suivi le programme Flexbox de 
+Codecademy dans l'un des domaines suivants :
+- Cheminement de carrière en ingénierie complète
+- Cheminement de carrière en ingénierie frontale
+- Apprenez à créer des sites Web Parcours de compétences
+- Exigences du projet
+
+2. Vous allez créer une ** page d'accueil d'entreprise ** pour une entreprise 
+réelle ou imaginaire. Vous déciderez exactement du contenu à inclure pour cette
+entreprise, mais vous devriez au moins inclure :
+** Un titre et un logo ou une image de démarrage. ** 
+** Un énoncé de mission ou une brève description de l'entreprise. **
+** Une liste ou un ensemble d'images et de titres représentant le ou les 
+produits de l'entreprise. **
+** Une section décrivant certains employés ou coéquipiers de l'entreprise. **
+Si vous le souhaitez, vous pouvez visiter notre site d'exemple pour vous 
+inspirer ou pour voir comment nous avons utilisé flexbox. Votre site sera 
+probablement très différent du nôtre, et c'est tant mieux !
+
+3. Votre projet doit ** utiliser le style flexbox pour la mise en page. ** 
+Essayez  d'utiliser les avantages de flexbox, tels qu'un ** positionnement 
+horizontal et vertical facile, des flux d'éléments flexibles à mesure que la 
+taille de la page change et un excellent style pour les éléments répétés. **
+
+Dans notre exemple de projet, nous avons utilisé flexbox pour :
+
+Créez une ** barre de navigation centrée en haut de la page. **
+Créez un ** affichage flexible des produits de l'entreprise qui passe d'une 
+liste de type grille à une liste de colonnes à mesure que la page se rétrécit. 
+**
+Créez un ** affichage flexible des employés de l'entreprise. **
+
+Notre exemple de site n'est pas une utilisation élaborée de flexbox - nous 
+sommes sûrs que vous pouvez trouver d'autres utilisations de flexbox dans votre
+ mise en page, comme tirer parti de flex-grow ou flex-shrink.
+
+4. Votre page doit également utiliser des styles ** personnalisés ** pour 
+d'autres propriétés, telles que les couleurs, les polices et d'autres 
+propriétés de mise en page telles que les bordures et le rembourrage.
+
+Notre exemple de site utilise :
+
+Un jeu de couleurs simple utilisant des couleurs nommées CSS, mais le vôtre 
+peut être plus élaboré avec des couleurs hexadécimales, RVB ou HSL.
+
+Polices de l'API Google Fonts.
+
+Images personnalisées. Unsplash est une excellente source d'images de projet 
+lorsque vous pratiquez la conception Web.
+
+Faire preuve de créativité! La personnalisation de l'apparence de votre site 
+est l'une des parties les plus passionnantes de la création de vos propres 
+sites Web. Vous pouvez passer en revue n'importe laquelle de ces autres 
+propriétés CSS dans notre cours Learn CSS.
+
+Solution de projet
+
+5. Bon travail! Visitez nos forums pour comparer votre projet à notre exemple 
+de code de solution. Vous pouvez également apprendre à héberger votre propre 
+solution sur GitHub afin de pouvoir la partager avec d'autres apprenants !
+
+Rappelez-vous, ce n'est qu'une solution possible. Votre propre projet peut être
+ codé de manière totalement différente, avoir plus ou moins de contenu et avoir
+  une apparence totalement différente ! Nous fournissons notre solution pour 
+  vous donner une idée d'une façon de flexbox pour aider à la mise en page. Il 
+  existe plusieurs façons de résoudre ces projets, et vous en apprendrez plus 
+  en voyant le code des autres.
