@@ -1,0 +1,76 @@
+URL photos:
+https://camo75.net/wp-content/uploads/2021/09/img_4112.jpg
+https://urlz.fr/jsln
+https://camo75.net/wp-content/uploads/2021/09/img_5010-800x600.jpg
+https://urlz.fr/jslr
+https://camo75.net/wp-content/uploads/2021/09/200220_1920_Dassault-Rafale-au-148-par-Frederic-2.jpg
+https://urlz.fr/jsls
+https://camo75.net/wp-content/uploads/2021/09/191110_1819_Hawker-Typhoon-au-148-par-Alphonse-1-612x459.jpg
+https://urlz.fr/jslz
+https://camo75.net/wp-content/uploads/2021/09/201127_1819_ADAV-Amiot-a-Decollage-et-Atterrissage-Vertical-scratch-sur-la-base-d-un-Amiot-143-au-172-par-Frederic-1-scaled-800x600.jpg
+https://urlz.fr/jslB
+https://camo75.net/wp-content/uploads/2021/09/200511_1920_-Petlyakov-2-au-172-par-Bernard-1-800x600.jpg
+https://urlz.fr/jslE
+https://live.staticflickr.com/65535/52370155646_57ce3db609_c.jpg
+https://urlz.fr/jslO
+
+Projet de défi : site Web réactif du club
+Aperçu
+Ce projet est légèrement différent des autres que vous avez rencontrés jusqu'à présent sur Codecademy. 
+Au lieu d'un tutoriel étape par étape, ce projet contient une série d'exigences ouvertes qui décrivent 
+le projet que vous allez construire. Il existe de nombreuses façons de répondre correctement à toutes 
+ces exigences, et vous devez vous attendre à utiliser Internet, Codecademy et d'autres ressources 
+lorsque vous rencontrez un problème que vous ne pouvez pas résoudre facilement.
+
+Objectifs du projet
+Dans ce projet, vous allez créer votre propre page de groupe de club qui répondra de manière dynamique 
+lorsque vous ajusterez la taille de votre écran !​
+
+Instructions de configuration
+Si vous choisissez de faire ce projet sur votre ordinateur au lieu de Codecademy, vous pouvez télécharger 
+ce dont vous aurez besoin en cliquant sur le bouton "Télécharger" ci-dessous. Si vous avez besoin d'aide 
+pour configurer votre ordinateur, lisez notre article sur la configuration d'un éditeur de texte pour le 
+développement HTML/CSS.
+
+==========================================================================================================
+
+Tâches
+
+Marquez les tâches comme terminées en les cochant
+Conditions préalables
+1. Pour mener à bien ce projet, vous devez avoir suivi le cours Codecademy Responsive Design ou les mêmes 
+leçons du parcours Apprendre à créer des sites Web.
+
+
+Exigences du projet
+2. Dans ce projet, vous allez créer une page Web pour un club local. Vous pouvez vous baser sur une 
+organisation réelle à laquelle vous appartenez ou en créer une ! Vous pourrez choisir tout ce qui concerne 
+votre page : le nom du club, la mise en page et le style de la page, les images que vous souhaitez utiliser, 
+et plus encore ! Vous pouvez consulter notre site d'exemple pour vous inspirer et tester les éléments 
+réactifs. Nous fournirons le code complet de ce site dans la section solution à la fin de ce projet.
+Exemple : https://content.codecademy.com/PRO/independent-practice-projects/responsive-club-site/example-site/index.html
+
+Une ressource utile pour trouver de belles images pour vos sites est Unsplash. https://unsplash.com/
+
+3. Votre projet doit démontrer la plupart des outils de conception réactive que vous avez appris. Dans notre 
+exemple de projet, nous utilisons des pourcentages et des unités relatives, telles que em et rem, dans notre 
+CSS pour dimensionner et positionner les éléments de la page. Nous avons également rendu notre site Web 
+réactif en incorporant des requêtes multimédias pour redimensionner les éléments en fonction de la taille de 
+l'écran.
+
+Concepts de conception réactive possibles à démontrer :​
+
+Faire basculer les images à certains pourcentages en termes de largeur après une certaine taille d'écran minimale.
+Utilisation d'une règle @media pour modifier la mise en page et le comportement de la page en fonction des points 
+d'arrêt de taille.
+Utilisation des unités réactives em et rem pour dimensionner et espacer les éléments avec largeur et rembourrage.
+
+Solution de projet
+4. Bon travail! Visitez nos forums pour comparer votre projet à notre exemple de code de solution. Vous pouvez 
+également apprendre à héberger votre propre solution sur GitHub afin de pouvoir la partager avec d'autres apprenants !
+
+Rappelez-vous, ce n'est qu'une solution possible. Votre propre projet peut être codé de manière totalement 
+différente, avoir plus ou moins de contenu et avoir une apparence totalement différente ! Nous fournissons 
+notre solution pour vous donner une idée d'une façon d'utiliser les unités réactives et les requêtes multimédias 
+pour affecter la mise en page. Il existe plusieurs façons de résoudre ces projets, et vous en apprendrez plus en 
+voyant le code des autres.-

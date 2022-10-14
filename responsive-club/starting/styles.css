@@ -1,0 +1,54 @@
+html {
+    /**/
+   font-size: 16px; 
+   background-color: lightgray;
+}
+
+header{
+   /* max-width: 90%;*/
+    height: 2rem;
+    background-color: aqua;
+}
+
+footer{
+    height: 2rem;
+    background-color: aqua;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 4rem;
+}
+
+.maquettes {
+   /* display: flex-box;*/
+   display: flex-block;
+}
+
+.maquettes .serie {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.maquettes .serie img {
+    width: 350px;
+    height: auto;
+
+}
+
