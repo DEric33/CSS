@@ -1,0 +1,50 @@
+h1 {
+    height: 150px;
+    background-image: url("../img/pattern.webp");
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+}
+
+h1 p {
+    /* height: 150px;*/
+    position: relative;
+    top: 25px;
+    /* ==> (150 (height h1) - 100 (font-size)) / 2 <== */
+}
+
+h2 {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+h2 p {
+    width: 100%
+}
+
+.brushes {
+    background-color: mediumspringgreen;
+
+}
+
+.frames {
+    background-color: lightcoral;
+}
+
+.paint {
+    background-color: skyblue;
+}
+
+div {
+    display: inline;
+}
+
+.info {
+    font-family: Helvetica;
+    font-weight: bold;
+    color: blue;
+}
