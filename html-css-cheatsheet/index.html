@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sélecteur CSS</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" /> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Signika&family=Space+Mono&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="cadre">
+    <h1>Sélecteurs CSS</h1>
+    <table>
+        <tr>
+            <th class="leType">Selecteurs simples</th>
+            <th class="laSyntaxe">Syntaxe</th>
+            <th class="lExemple">Exemple</th>
+            <th class="lObjectif">Objectif</th>
+        </tr>
+        <tr>			
+            <td>de type</td>
+            <td><span id="syntax">nomElement</span></td>
+            <td>input</td>
+            <td>Cibler n'importe quel élément &lt;input&gt;.</td>
+        </tr>
+        <tr>			
+            <td>de classe</td>
+            <td><span id="syntax">.nomClasse</span></td>
+            <td>.index</td>
+            <td>Cibler n'importe quel élément qui possède la classe index</td>
+        </tr>
+        <tr>	
+            <td>d’identifiant</td>
+            <td><span id="syntax">#valeurId</span></td>
+            <td>#toc</td>
+            <td>Cibler l'élément qui possède l'identifiant toc</td>
+        </tr>
+        <tr>
+            <td>universel</td>
+            <td><span id="syntax">*</span></td>
+            <td>*</td>
+            <td>Cibler tous les éléments du document</td>
+        </tr>
+        <tr>
+            <td>d’attribut</td>
+            <td><span id="syntax">[attr]</span></td>
+            <td>[autoplay]</td>
+            <td>Cibler tous les éléments qui possède l'attribut autoplay défini</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th class="leType">Combinateurs</th>
+            <th class="laSyntaxe">Syntaxe</th>
+            <th class="lExemple">Exemple</th>
+            <th class="lObjectif">Objectif</th>
+        </tr>
+        <tr>
+            <td>de voisin direct</td>
+            <td><span id="syntax">A + B</span></td>
+            <td>div + p</td>
+            <td>Cibler n'importe quel élément &lt;p&gt; qui suit immédiatement un élément &lt;div&gt;.
+</td>
+        </tr>
+        <tr>
+            <td>de voisins</td>
+            <td><span id="syntax">A ~ B</span></td>
+            <td>p ~ span</td>
+            <td>Cibler les éléments &lt;span&gt; qui suivent (immédiatement ou non) un élément &lt;p&gt; et qui ont le même élément parent.
+            </td>
+        </tr>
+        <tr>
+            <td>d’éléments enfants</td>
+            <td><span id="syntax">A > B</span></td>
+            <td>ul > li</td>
+            <td>Cibler tous les éléments &lt;li&gt; qui sont directement situés sous un élément &lt;ul&gt;.
+</td>
+        </tr>
+        <tr>
+            <td>d’éléments descendants</td>
+            <td><span id="syntax">A B</span></td>
+            <td>div span</td>
+            <td>Cibler n'importe quel élément &lt;span&gt; situé à l'intérieur d'un élément &lt;div&gt;.
+</td>
+        </tr>
+        <tr>
+            <td>de colonne</td>
+            <td><span id="syntax">A || B</span></td>
+            <td>col || td</td>
+            <td>Cibler n'importe quel élément &lt;td&gt; sous la portée d'une colonne &lt;col&gt;.
+</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th class="leType">Pseudo</th>
+            <th class="laSyntaxe">Syntaxe</th>
+            <th class="lExemple">Exemple</th>
+            <th class="lObjectif">Objectif</th>
+        </tr>
+        <tr>
+            <td>Pseudo-classes</td>
+            <td></td>
+            <td>a:visited</td>
+            <td>Cibler l'ensemble des éléments &lt;a&gt; (des liens) ayant déjà été visités par l'utilisateur.
+</td>
+        </tr>
+        <tr>
+            <td>Pseudo-elements		</td>
+            <td></td>
+            <td>p::first-line	</td>
+            <td>Cibler la première ligne de chacun des éléments &lt;p&gt; (les paragraphes) du document.
+            </td>
+        </tr>
+    </table>
+</div>
+
+<!-- Pour archives..
+<img src = "palette.svg" alt="Palette de couleurs"/ width="250px" height="27px">
+-->
+</body>
+</html>
