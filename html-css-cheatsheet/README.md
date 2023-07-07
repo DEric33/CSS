@@ -8,4 +8,4 @@ Si ça peut aider une personne curieuse, c'est encore lieux :-)
 
 Language ? 
 
-I know.. But Brandon is in the kitchen and he can't translate for me from now ! :-)
+I know.. But "Brandon is in the kitchen" and he can't translate for me from now ! :-)
