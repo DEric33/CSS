@@ -1,0 +1,25 @@
+.container{
+    border: solid;
+    padding: 4px;
+}
+
+.headerArray {
+    font-weight: 800;
+    display: flex;
+    border: turquoise solid;
+    grid-template-columns: auto 1fr auto;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    grid-template-columns: auto 1fr auto;
+}
+
+.colArray {
+ flex-wrap: wrap;
+     /*  display: inline;*/
+    display: grid; /*inline-flex;*/
+    width: 100%; 
+    border: pink solid;
+}
