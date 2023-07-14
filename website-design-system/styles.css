@@ -1,12 +1,21 @@
+body{
+    background-color: rgb(226, 229, 229);
+}
+
+h3 {
+    text-decoration: underline;
+}
+
 .container{
-    border: solid;
+    border: dashed 0.1px;
     padding: 4px;
+    margin-bottom: 15px;
 }
 
 .headerArray {
     font-weight: 800;
     display: flex;
-    border: turquoise solid;
+    border: black solid 0.25px;
     grid-template-columns: auto 1fr auto;
     text-align: center;
 }
@@ -16,10 +25,59 @@
     grid-template-columns: auto 1fr auto;
 }
 
+.contentPolice {
+    grid-template-columns: auto 1fr auto;
+}
+
+.policesBloc {
+    display: flex;
+}
+
 .colArray {
  flex-wrap: wrap;
      /*  display: inline;*/
     display: grid; /*inline-flex;*/
     width: 100%; 
-    border: pink solid;
+    border: black solid 1px;
 }
+
+.coul1 {
+    background-color: #D7F7F5;
+}
+
+.coul2 {
+    background-color: #75CAC3;
+}
+
+.coul3 {
+    background-color: #2A6171;
+}
+
+.coul4 {
+    background-color: #F3D516;
+}
+
+.coul5 {
+    background-color: #D7F7F5;
+}
+
+.laFont1 {
+    font-family: 'Chela One', cursive;
+}
+
+.laFont2 {
+    font-family: 'Dancing Script', cursive;
+}
+
+.laFont3 {
+    font-family: 'DM Serif Display', serif;
+}
+
+.laFont4 {
+    font-family: 'Domine', serif;
+}
+
+.laFont5 {
+    font-family: 'Dosis', sans-serif;
+}
+
