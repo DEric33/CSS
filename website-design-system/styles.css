@@ -25,14 +25,6 @@ h3 {
     grid-template-columns: auto 1fr auto;
 }
 
-.contentPolice {
-    grid-template-columns: auto 1fr auto;
-}
-
-.policesBloc {
-    display: flex;
-}
-
 .colArray {
  flex-wrap: wrap;
      /*  display: inline;*/
@@ -61,7 +53,22 @@ h3 {
     background-color: #D7F7F5;
 }
 
-.laFont1 {
+/*********************** Polices ***********************/
+
+ .policesBloc {
+   /*  grid-template-columns: auto 1fr auto;
+     flex-wrap: wrap;*/
+  }
+ 
+.contentPolice {
+    width: 350px;
+    display: inline-block; 
+    border-radius: 10px;
+    padding: 5px;
+    margin:5px;
+}
+ 
+ .laFont1 {
     font-family: 'Chela One', cursive;
 }
 
@@ -81,3 +88,32 @@ h3 {
     font-family: 'Dosis', sans-serif;
 }
 
+.italic{
+    font-style: italic;
+}
+
+.bold{
+    font-weight: 800;
+}
+
+/*********************** Charte ***********************/
+.chart h1{
+    font-size: 44px;
+}
+
+.chart h2{
+    font-size: 33px;
+}
+
+.chart p{
+    font-size: 17px;
+}
+
+/*********************** Liens ***********************/
+.url {
+    text-decoration: none;
+}
+
+.url:hover {
+    background-color: aqua;
+}
