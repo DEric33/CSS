@@ -1,0 +1,259 @@
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color:seashell;
+/*    background-color: black;*/
+    opacity: 0.9;
+}
+
+body{
+    background-color: black;
+    max-width: 1260px;
+    margin: auto;
+}
+
+.headerBlock{
+    max-width: 1260px;
+    min-height: 769px;
+    margin: 0 auto;
+    background-color: black;
+    padding-bottom: 60px;
+}
+
+.blockOne{
+ /*    color: #000;
+     max-width: 1100px;*/
+    max-width: 1000px;
+    background-color: black;
+    margin: auto;
+    min-height: 570px;
+}
+
+.blockTwo{
+ /*   border-color: chartreuse;*/
+    max-width: 1260px;    
+    min-height: 500px;
+    margin: auto;
+    padding: 20px 0;
+    background-color: black;
+    
+}
+
+/****************/
+/**** TEXT ****/
+/****************/
+h2{
+    font-size: 32px;
+    margin: 15px;
+}
+
+h4{
+    font-size: 20px;
+    margin: 15px;
+
+}
+
+/****************/
+/**** HEADER ****/
+/****************/
+
+.fixHeader{
+    height: 69px;
+    border-bottom: 1px solid seashell;
+}
+
+.logo{
+    height: 50px;
+    padding: 10px 9px;
+}
+
+.menu{
+    list-style: none;
+    float:right;
+    width: 350px;
+}
+
+ol{
+	display: flex;
+    justify-content: space-between;
+}
+
+li{
+  flex-direction: row-reverse;
+}
+
+li a{
+    text-decoration: underline;
+    align-content:space-around;
+}
+
+.header{
+    background-image: url(images/img-mission-background.webp);
+    width: 1200px;
+    height: 700px;
+    background-position: center top;
+    margin: auto;
+    /*display: inline-flexbox;*/
+}
+
+.mission{
+    text-align: center;
+   /* display:inline-block;*/
+   justify-content: center;
+    position:absolute;
+    top:390px; 
+ /*   height:120px;*/
+    width: 1200px;
+    background-color: black;
+    opacity: 1;
+
+}
+
+.titleFood{
+    text-align: center;
+   /* display:inline-block;*/
+   justify-content: center;
+   /*   position:absolute;
+    top:390px; 
+  height:120px;
+    width: 1260px;*/
+    background-color: black;
+    opacity: 1;
+
+}
+
+figure {
+    color: #fff;
+    display: table-cell;
+    vertical-align: text-bottom;
+    width: 300px;
+    text-align: center;
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+
+figcaption{
+    color: #fff;
+    display: table-cell;
+    vertical-align: text-bottom;
+    width: 300px;
+    text-align: center;
+    margin: 0;
+    border: 0;
+    padding: 20px;
+  }
+
+.food{
+  /*  max-width: 1200px;*/
+    text-align: center;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+.picture{
+    width: 300px;
+    height: 200px;
+}
+
+/*img{
+    size-adjust:inherit;
+}*/
+
+#fallBerryBlitz{
+    background-image: url("images/img-berryblitz.jpg");
+  background-size: cover;
+    background-position: top;
+  /*    background-origin: content-box;*/
+    width: 300px;
+    height: 200px;
+  
+}
+
+#spicedRum{
+    background-image: url("images/img-spiced-rum.webp");
+    background-size:cover;
+    background-position: top;
+    width: 300px;
+    height: 200px;
+}
+
+#SeasonalDonuts{
+    background-image: url("images/img-donut.webp");
+    background-size:cover;
+    background-position: top;
+    width: 300px;
+    height: 200px;
+}
+
+#myrtleAve{
+    background-image: url("images/img-myrtle-ave.webp");
+    background-size:cover;
+    background-position: top;
+    width: 300px;
+    height: 200px;
+}
+
+#bedfortBizarre{
+    background-image: url("images/img-bedford-bizarre.jpg");
+    background-size:cover;
+    background-position: top;
+    width: 300px;
+    height: 200px;
+}
+
+/* Locations */
+.location{
+    height: 500px;
+    background-image: url("images/img-locations-background.webp");
+    width: 1200px;
+    background-position: bottom 75% left;
+    margin: auto;
+
+}
+
+.titleLocation{
+    text-align: center;
+}
+
+.addressList{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   /* text-align: center;
+    display:inline-block;
+    position:absolute;*/
+  top:390px;
+   /*   height:120px;
+    width:100%; */
+
+    align-content: space-between;
+}
+
+
+.address{
+    display:flexbox;
+     width:300px;
+ /*   height: 300px;*/
+    opacity:1;
+    background: #000;
+    text-align: center;
+
+}
+
+/* contact */
+.contact{
+    height: 200px;
+    text-align: center;
+}
+
+/* footer page */
+.copyright{
+    margin-left: 20px;
+    text-align: left;
+}
