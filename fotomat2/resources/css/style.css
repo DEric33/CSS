@@ -1,13 +1,56 @@
-/* Universal Styles */
+/*--MOD: FONTS @ FONT-FACE IN FONTS-FOLDER--*/
 
-html {
+@font-face {
+    font-family: RobotoMono-Regular;
+    src: url('../fonts/RobotoMono-Regular.ttf') format('truetype')
+  }
+  
+  @font-face {
+  font-family: Roboto-Regular;
+  src: url('../fonts/Roboto-Regular.ttf') format('truetype')
+  }
+  
+  @font-face {
+  font-family: Roboto-Light;
+  src: url('../fonts/Roboto-Light.ttf') format('truetype')
+  }
+  
+  @font-face {
+  font-family: Roboto-Medium;
+  src: url('../fonts/Roboto-Medium.ttf') format('truetype')
+  }
+  
+  @font-face {
+  font-family: Roboto-Bold;
+  src: url('../fonts/Roboto-Bold.ttf') format('truetype')
+  }
+  
+  @font-face {
+    font-family: Damion-Regular;
+    src: url('../fonts/Damion-Regular.ttf') format('truetype')
+    }
+  
+  @font-face {
+  font-family: Palatia-Italic;
+  src: url('../fonts/Palatia-Italic.ttf') format('truetype')
+  }
+  
+  @font-face {
+  font-family: Rubik-Regular;
+  src: url('../fonts/Rubik-Regular.ttf') format('truetype')
+  }
+  
+  /* Universal Styles */
+  
+  html {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
   }
   
   .main-content {
     position: relative;
-    top: 5.3125rem; /* To offset for fixed header. */
+    /* To offset for fixed header. */
+    top: 5.3125rem;
   }
   
   .center {
@@ -26,6 +69,8 @@ html {
   
   .image-container img {
     display: block;
+    /*--MOD: DEFINE WIDTH OF IMAGES IN FILTERS-SECTION--*/
+    max-width: 100%
   }
   
   @media only screen and (max-width: 760px) {
@@ -38,6 +83,8 @@ html {
   
   header {
     position: fixed;
+    /*--MOD: ADDING Z-INDEX TO AVOID THE NAV-BAR GETS COVERED BY CONTENT--*/
+    z-index: 100;
     width: 100%;
     border-bottom: solid 1px #c6c1c1;
     background-color: white;
@@ -51,19 +98,27 @@ html {
   
   header .logo {
     flex: 1;
+    /*--MOD: FONT-FAMILY AND FONT-STYLE--*/
+    font-family: RobotoMono-Regular;
+    font-style: bold;
+    font-size: 1.5rem;
   }
   
   header nav ul {
     display: flex;
+    
   }
   
   nav li {
     padding-left: 3.5rem;
+    list-style-type: none;
   }
   
   nav a {
     vertical-align: bottom;
     line-height: 1.6;
+    /*--MOD: FONT-FAMILY--*/
+    font-family: Roboto-Regular;
     font-size: 1rem;
     color: #4a4a4a;
   }
@@ -78,6 +133,7 @@ html {
   }
   
   @media only screen and (max-width: 760px) {
+    
     header .desktop {
       display: none;
     }
@@ -117,9 +173,19 @@ html {
     justify-content: flex-start;
     align-items: flex-start;
     height: 43.5rem;
+    /*--MOD: ADDING BACKGROUND-IMAGE AND ATTRIBUTES--*/
+    background-image: url('../images/banner-landingpage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: bottom;
   }
   
   #sign-up-cta {
+    position: relative;
+    /*--MOD: VERTICAL POSITIONING--*/
+    top: 171px;
+    /*--MOD: HORIZONTAL POSITIONING--*/
+    left: 10%;
     padding: 0 5rem 2.5rem 5rem;
     border: solid 1px #979797;
     border-radius: 4px;
@@ -129,7 +195,8 @@ html {
   #sign-up-cta .content {
     width: 25.625rem;
     margin-top: 2rem;
-    font-family: "Roboto", sans-serif;
+    /*--MOD: FONT-FAMILY--*/
+    font-family: Roboto-Regular;
     font-size: 1.25rem;
     line-height: 1.4;
     color: white;
@@ -148,11 +215,13 @@ html {
   }
   
   #sign-up-cta .cursive {
-    font-family: "Damion", cursive;
+    /*--MOD: FONT-FAMILY--*/
+    font-family: Damion-Regular, cursive;
   }
   
   #sign-up-cta .striking {
-    font-family: "Rubik", sans-serif;
+    /*--MOD: FONT-FAMILY--*/
+    font-family: Rubik-Regular;
     padding-bottom: .75rem;
   }
   
@@ -229,14 +298,23 @@ html {
     margin: 0 auto;
   }
   
+  .feature .content {
+    /*--MOD: ADDING 40px SPACE BETWEEN IMAGE AND HEADLINE--*/
+    padding: 2.5rem 0;
+  }
+  
   .feature h2 {
     padding-bottom: .5rem;
+    /*--MOD: FONT-FAMILY--*/
+    font-family: Roboto-Medium;
     font-size: 2.25rem;
     font-weight: bold;
     color: #4a4a4a;
   }
   
   .feature h3 {
+    /*--MOD: FONT-FAMILY--*/
+    font-family: Roboto-Light;
     font-size: 1rem;
     line-height: 1.2;
     font-weight: 300;
@@ -266,6 +344,10 @@ html {
       margin: 0;
       padding: 1.25rem 1rem 0 1rem;
     }
+  
+    .feature .content {
+      padding: 1.25rem 0 1.875rem 0;
+    }
   }
   
   /* Filters Section */
@@ -281,12 +363,16 @@ html {
   }
   
   #filters-section .content h2 {
+    /*--MOD: FONT-FAMILY--*/
+    font-family: Roboto-Bold;
     font-size: 2.25rem;
     font-weight: bold;
     color: white;
   }
   
   #filters-section .content h3 {
+    /*--MOD: FONT-FAMILY--*/
+    font-family: Roboto-Light;
     font-size: 1rem;
     line-height: 1.4;
     font-weight: 300;
@@ -294,6 +380,7 @@ html {
   }
   
   #filters-section .images-container {
+    display: flex;
     max-width: 100%;
     padding: 0 1%;
   }
@@ -323,6 +410,7 @@ html {
       padding: 0;
     }
   
+    /*--MOD: HIDING RIGHT-HANDED GALLERY-IMAGE LIKE SHOWN IN SPECIFICATIONS--*/
     #filters-section .extra {
       display: none;
     }
@@ -334,13 +422,16 @@ html {
     background-color: #f3f3f3;
   }
   
-  #quotes-section content {
+    /*--MOD: DEFINE PADDING FOR TOP- AND DOWN-SPACE OF 40px = 5rem--*/
+  #quotes-section .content {
     padding: 5rem 0;
   }
   
-  #quotes-section quote {
+    /*--MOD: quote CHANGED TO .quote--*/
+  #quotes-section .quote {
     padding-right: 1.875rem;
-    font-family: "Palatino", serif;
+    /*--MOD: FONT-FAMILY--*/
+    font-family: Palatia-Italic;
     font-size: 1.875rem;
     line-height: 1.1;
     font-style: italic;
@@ -352,11 +443,13 @@ html {
   }
   
   @media only screen and (max-width: 760px) {
-    #quotes-section content {
+      /*--MOD: content CHANGED TO .content--*/
+    #quotes-section .content {
       padding: 1.875rem .625rem;
     }
   
-    #quotes-section quote {
+    /*--MOD: quote CHANGED TO .quote--*/
+    #quotes-section .quote {
       font-size: 1.5rem;
       line-height: 1.4;
     }
@@ -378,6 +471,8 @@ html {
   footer .content {
     color: white;
     display: flex;
+    /*--MOD: FONT-FAMILY--*/
+    font-family: Roboto-Regular;
     font-size: .75rem;
   }
   
