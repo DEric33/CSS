@@ -1,0 +1,53 @@
+html {
+    font-size: 14px;
+    width: 70%;
+    margin: auto;
+}
+
+.group {
+    display: flex;
+   align-content: space-around;
+   justify-content: space-around;
+}
+
+.titleOne {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.titleTwo {
+    font-size: 2rem;
+    font-weight: 800;    
+}
+
+img {
+    height: 170px;
+    width: auto;;
+}
+
+.blocImg {
+    display: block;
+    width: 20%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display:inline-block;
+
+}
+
+a:hover {
+    background-color: aquamarine;
+}
+
+header {
+    display: flex;
+   justify-content: space-around;
+}
+footer {
+    display: flex;
+   justify-content: space-around;
+}
