@@ -38,7 +38,8 @@ img {
 }
 
 .blocImg {
-    display:flexbox
+    display:flexbox;
+    min-width: 250px;
     width: 20%;
 }
 
