@@ -6,6 +6,7 @@ html {
 
 p {
     font-size: 1.1rem;
+    font-family: 'Oxygen', sans-serif;
     width: 100%;
     max-height: 5rem;
     overflow: auto;
@@ -21,6 +22,7 @@ p {
 .titleOne {
     font-size: 3rem;
     font-weight: 800;
+    font-family: 'Roboto Slab', serif;
 }
 
 .titleTwo {
@@ -84,4 +86,41 @@ footer {
     padding-bottom: 1rem;
     display: flex;
    justify-content: space-around;
+}
+
+@media only screen and (max-width: 800px) {
+    main {
+        display: block;
+    }
+    
+    .logo {
+        display: none;
+    }
+
+    .titleOne {
+        display: none;
+    }
+
+    ul.menu {
+        list-style: none;
+    }
+
+    li {
+        width: 100px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+        margin-left: 15px;
+    }
+
+    .group {
+        display: block;
+    }
+
+    footer {
+        display: none;
+    }
 }
