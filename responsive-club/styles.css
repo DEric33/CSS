@@ -1,0 +1,65 @@
+html{
+    font-size: 14px;;
+}
+header {
+    display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin: auto;
+}
+
+div {
+    display: flex;
+ /* width: 90%;*/
+  justify-content: space-around;
+  margin: auto;
+}
+
+.logo {
+    display: inline-flex;
+    width: auto;
+    height: 80%;
+}
+
+h1{
+    display: inline-flex;
+    font-size: 7rem;
+    width: auto;
+    text-align: center;
+}
+
+.menu {
+    display: inline-block;
+    align-self: flex-start;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 150px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    text-decoration: none;
+    padding-right: 8px;
+}
+
+footer li {
+    float: right;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+img {
+/*    width: 400px;*/
+    width: 30%;
+    height: auto;
+}
+
+.special {
+    width: 60%;
+    height: auto;
+}
