@@ -1,5 +1,5 @@
 html{
-    font-size: 14px;;
+    font-size: 14px;
 }
 header {
     display: flex;
@@ -18,14 +18,21 @@ div {
 .logo {
     display: inline-flex;
     width: auto;
-    height: 80%;
+    height: auto;
+    max-height: 150px;
+    /*height: 80%;*/
 }
 
 h1{
     display: inline-flex;
-    font-size: 7rem;
-    width: auto;
+    font-size: 5em;
     text-align: center;
+    margin: auto;
+}
+
+p {
+    font-size: 1.5rem;
+ /*   text-align: center;*/
 }
 
 .menu {
@@ -33,7 +40,7 @@ h1{
     align-self: flex-start;
     justify-content: space-between;
     list-style-type: none;
-    width: 150px;
+    width: 250px;
 }
 
 li {
@@ -43,10 +50,11 @@ li {
 li a {
     text-decoration: none;
     padding-right: 8px;
+    font-size: 2rem;
 }
 
 footer li {
-    float: right;
+    float: left;
 }
 
 h2{
@@ -62,4 +70,57 @@ img {
 .special {
     width: 60%;
     height: auto;
+}
+
+.specialp {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 1300px) {
+    .logo {
+        display: none;
+    }
+
+    html{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    main {
+        margin: auto;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div {
+        display: block;
+    }
+
+    h1{
+        flex-wrap: wrap;
+        display: flex;
+        text-align: left;
+        margin: auto 0;
+    }
+
+    .menu {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    img {
+    /*    width: 400px;*/
+        min-width: 40rem;
+        height: auto;
+    }
+        
+    p {
+        max-width: 40rem;       
+    }
 }
